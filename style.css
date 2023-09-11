@@ -5,3 +5,14 @@
 p {
   color: red;
 }
+table,
+th,
+td {
+  border: 1px solid black;
+}
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+td:nth-child(even) {
+  background-color: red;
+}
